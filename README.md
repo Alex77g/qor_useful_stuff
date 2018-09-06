@@ -3,8 +3,9 @@
 ## FAQ
 
 ### Images 404 error
-install gvm (Go Version Manager)
-https://github.com/moovweb/gvm
+
+install gvm (Go Version Manager)  
+https://github.com/moovweb/gvm  
 
 ```console
 gvm install go1.10.2
