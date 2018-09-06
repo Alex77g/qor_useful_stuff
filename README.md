@@ -3,9 +3,9 @@
 ## FAQ
 
 ### Images 404 error
-´´´console
+```console
 gvm install go1.10.2
-´´´  
+```    
 you have to activate the version 1.10.2 in gvm
 gvm use go1.10.2
 an then you have a new go directory ~/.gvm/...... linux for example
