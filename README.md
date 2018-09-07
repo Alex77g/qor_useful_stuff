@@ -36,3 +36,6 @@ GVM go root c:\users\myusername\go
 
 So you needed to copy over the qor-example\public\system to the new Go location.  
 
+### Admin can't login  
+
+
