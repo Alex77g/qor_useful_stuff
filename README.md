@@ -4,13 +4,13 @@
 
 you also need to have NodeJS installed, then install 'gulp' globally with npm and do npm install (in application root directory). 
 
-Then pull go dependencies ( ´´´console go get -u ./... ´´´ from application root directory) -- this part may take a while and gives no feedback until error or done, so you can throw a -v switch in there (go get -u -v ./... if you want feedback while it works).
+Then pull go dependencies ( ```console go get -u ./... ``` from application root directory) -- this part may take a while and gives no feedback until error or done, so you can throw a -v switch in there (```console go get -u -v ./... ``` if you want feedback while it works).
 
 Do not forget to edit the database connection information (edit qor-example/config/config.go).
 
-Then run with go run main.go or go run -v main.go if you want some verbose output.
+Then run with ```console go run main.go``` or ```console go run -v main.go``` if you want some verbose output.
 
-I recall having to piece all of this together myself (except for the go get ./... part, that is actually there if you click the wiki link for the qor-example repo). 
+I recall having to piece all of this together myself (except for the ```console go get ./...``` part, that is actually there if you click the wiki link for the qor-example repo). 
 
 
 ## FAQ
