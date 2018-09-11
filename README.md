@@ -12,6 +12,9 @@ Then run with ```console go run main.go``` or ```console go run -v main.go``` if
 
 I recall having to piece all of this together myself (except for the ```console go get ./...``` part, that is actually there if you click the wiki link for the qor-example repo). 
 
+## Debug Mode
+
+enable debug on linux/mac with export ```console DEBUG=true``` or windows set ```console DEBUG=true```
 
 ## FAQ
 
