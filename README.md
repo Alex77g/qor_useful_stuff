@@ -14,7 +14,7 @@ I recall having to piece all of this together myself (except for the ``` go get 
 
 ## Debug Mode
 
-enable debug on linux/mac with export ``` export DEBUG=true``` or windows set ``` DEBUG=true```
+enable debug on linux/mac with export ``` export DEBUG=true``` or windows set ``` DEBUG=true``` then run the app
 
 ## FAQ
 
