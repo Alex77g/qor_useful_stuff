@@ -6,15 +6,15 @@ you also need to have NodeJS installed, then install 'gulp' globally ```console 
 
 Then pull go dependencies ( ```console go get -u ./... ``` from application root directory) -- this part may take a while and gives no feedback until error or done, so you can throw a ```console -v ``` switch in there (```console go get -u -v ./... ``` if you want feedback while it works).
 
-Do not forget to edit the database connection information (edit ```console qor-example/config/config.go```).
+Do not forget to edit the database connection information (edit ``` qor-example/config/config.go```).
 
-Then run with ```console go run main.go``` or ```console go run -v main.go``` if you want some verbose output.
+Then run with ``` go run main.go``` or ``` go run -v main.go``` if you want some verbose output.
 
-I recall having to piece all of this together myself (except for the ```console go get ./...``` part, that is actually there if you click the wiki link for the qor-example repo). 
+I recall having to piece all of this together myself (except for the ``` go get ./...``` part, that is actually there if you click the wiki link for the qor-example repo). 
 
 ## Debug Mode
 
-enable debug on linux/mac with export ```console DEBUG=true``` or windows set ```console DEBUG=true```
+enable debug on linux/mac with export ``` export DEBUG=true``` or windows set ``` DEBUG=true```
 
 ## FAQ
 
@@ -23,11 +23,11 @@ enable debug on linux/mac with export ```console DEBUG=true``` or windows set ``
 install gvm (Go Version Manager)  
 https://github.com/moovweb/gvm  
 
-```console
+```
 gvm install go1.10.2
 ```    
 you have to activate the version 1.10.2 in gvm
-```console
+```
 gvm use go1.10.2
 ``` 
 Linux:  
