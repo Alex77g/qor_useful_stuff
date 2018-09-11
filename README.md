@@ -2,9 +2,9 @@
 
 ## Install
 
-you also need to have NodeJS installed, then install 'gulp' globally ```console npm install -g gulp ``` with npm and do ```console npm install ``` (in application root directory). 
+you also need to have NodeJS installed, then install 'gulp' globally ``` npm install -g gulp ``` with npm and do ``` npm install ``` (in application root directory). 
 
-Then pull go dependencies ( ```console go get -u ./... ``` from application root directory) -- this part may take a while and gives no feedback until error or done, so you can throw a ```console -v ``` switch in there (```console go get -u -v ./... ``` if you want feedback while it works).
+Then pull go dependencies ( ``` go get -u ./... ``` from application root directory) -- this part may take a while and gives no feedback until error or done, so you can throw a ``` -v ``` switch in there (``` go get -u -v ./... ``` if you want feedback while it works).
 
 Do not forget to edit the database connection information (edit ``` qor-example/config/config.go```).
 
