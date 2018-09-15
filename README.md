@@ -41,4 +41,28 @@ So you needed to copy over the qor-example\public\system to the new Go location.
 
 ### Admin can't login  
 
+### VS Code Config
+```
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "remotePath": "",
+            "port": 2345,
+            "host": "127.0.0.1",
+            "program": "${workspaceRoot}",
+            "env": {"DEBUG" : true}, //damit geneu gelistet wird, bei welcher codezeile der Abfrage ausgeführt wird
+            "args": [],
+            "showLog": true
+        }
+    ]
+}
+```
 
