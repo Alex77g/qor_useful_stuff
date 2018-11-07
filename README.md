@@ -65,4 +65,7 @@ So you needed to copy over the qor-example\public\system to the new Go location.
     ]
 }
 ```
+### Styles
 
+build scss 
+``` gulp sass ```
