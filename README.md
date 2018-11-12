@@ -69,3 +69,7 @@ So you needed to copy over the qor-example\public\system to the new Go location.
 
 build scss 
 ``` gulp sass ```
+
+### Security
+
+https://blog.rapid7.com/2016/07/13/quick-security-wins-in-golang/
