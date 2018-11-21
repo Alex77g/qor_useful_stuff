@@ -73,3 +73,18 @@ build scss
 ### Security
 
 https://blog.rapid7.com/2016/07/13/quick-security-wins-in-golang/
+
+### Docker 
+
+```
+FROM golang
+ENV PORT 7000
+EXPOSE 7000
+
+WORKDIR /go/src/YOURPROJ
+COPY . .
+
+RUN go get
+
+ENTRYPOINT go run main.go
+```
