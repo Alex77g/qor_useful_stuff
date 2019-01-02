@@ -39,8 +39,6 @@ GVM go root c:\users\myusername\go
 
 So you needed to copy over the qor-example\public\system to the new Go location.  
 
-### Admin can't login  
-
 ### VS Code Config
 ```
     // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
@@ -75,6 +73,8 @@ build scss
 https://blog.rapid7.com/2016/07/13/quick-security-wins-in-golang/
 
 ### Docker 
+
+#### Minimal:
 
 ```
 FROM golang
