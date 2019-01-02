@@ -1,4 +1,4 @@
-# Some stuff to make it easier to handle qor
+# Some useful QOR stuff
 
 ## Install
 
