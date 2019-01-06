@@ -41,7 +41,7 @@ So you needed to copy over the qor-example\public\system to the new Go location.
 
 #### Pulling newest QOR Repos
 
-execute ```update_all_qor_repos.sh``` in https://github.com/qor/qor 
+execute ```update_all_qor_repos.sh``` in https://github.com/qor/qor/update_all_qor_repos.sh
 
 could also help
 
