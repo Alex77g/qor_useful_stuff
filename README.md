@@ -39,6 +39,12 @@ GVM go root c:\users\myusername\go
 
 So you needed to copy over the qor-example\public\system to the new Go location.  
 
+#### Pulling newest QOR Repos
+
+```update_all_qor_repos.sh``` in https://github.com/qor/qor 
+
+could also help
+
 ### VS Code Config
 ```
     // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
